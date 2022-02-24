@@ -13,6 +13,7 @@ class PodcastFeedController: UIViewController {
         var tv = UITableView()
         tv.register(PodcastCell.self, forCellReuseIdentifier: PodcastCell.reuseidentifier)
         tv.dataSource = self
+        tv.delegate = self
         return tv
     }()
 
@@ -54,6 +55,14 @@ extension PodcastFeedController: UITableViewDataSource {
         let podcast = podcasts[indexPath.row]
         cell.configure(with: podcast)
         return cell
+    }
+}
+
+extension PodcastFeedController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let dv = PodcastDetailViewController()
+        dv.podcast = podcasts[indexPath.row]
+        navigationController?.pushViewController(dv, animated: false)
     }
 }
 

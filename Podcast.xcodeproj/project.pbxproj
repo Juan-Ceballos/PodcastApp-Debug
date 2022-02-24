@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ED1BCB227C754D5004FD34B /* PodcastDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED1BCB127C754D5004FD34B /* PodcastDetailViewController.swift */; };
+		3ED1BCB527C7560F004FD34B /* PodcastDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED1BCB427C7560F004FD34B /* PodcastDetailView.swift */; };
 		5781B873271E1B46000E4561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781B872271E1B46000E4561 /* AppDelegate.swift */; };
 		5781B875271E1B46000E4561 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781B874271E1B46000E4561 /* SceneDelegate.swift */; };
 		5781B877271E1B46000E4561 /* PodcastFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781B876271E1B46000E4561 /* PodcastFeedController.swift */; };
-		5781B87A271E1B46000E4561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5781B878271E1B46000E4561 /* Main.storyboard */; };
 		5781B87C271E1B48000E4561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5781B87B271E1B48000E4561 /* Assets.xcassets */; };
 		5781B87F271E1B48000E4561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5781B87D271E1B48000E4561 /* LaunchScreen.storyboard */; };
 		5781B887271E1B74000E4561 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781B886271E1B74000E4561 /* Podcast.swift */; };
@@ -20,11 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3ED1BCB127C754D5004FD34B /* PodcastDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastDetailViewController.swift; sourceTree = "<group>"; };
+		3ED1BCB427C7560F004FD34B /* PodcastDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastDetailView.swift; sourceTree = "<group>"; };
 		5781B86F271E1B46000E4561 /* Podcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5781B872271E1B46000E4561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5781B874271E1B46000E4561 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5781B876271E1B46000E4561 /* PodcastFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastFeedController.swift; sourceTree = "<group>"; };
-		5781B879271E1B46000E4561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5781B87B271E1B48000E4561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5781B87E271E1B48000E4561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5781B880271E1B48000E4561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,7 +73,8 @@
 				5781B88C271E2819000E4561 /* ImageLoader.swift */,
 				5781B88A271E1FB8000E4561 /* PodcastCell.swift */,
 				5781B876271E1B46000E4561 /* PodcastFeedController.swift */,
-				5781B878271E1B46000E4561 /* Main.storyboard */,
+				3ED1BCB127C754D5004FD34B /* PodcastDetailViewController.swift */,
+				3ED1BCB427C7560F004FD34B /* PodcastDetailView.swift */,
 				5781B87B271E1B48000E4561 /* Assets.xcassets */,
 				5781B87D271E1B48000E4561 /* LaunchScreen.storyboard */,
 				5781B880271E1B48000E4561 /* Info.plist */,
@@ -139,7 +142,6 @@
 			files = (
 				5781B87F271E1B48000E4561 /* LaunchScreen.storyboard in Resources */,
 				5781B87C271E1B48000E4561 /* Assets.xcassets in Resources */,
-				5781B87A271E1B46000E4561 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +156,8 @@
 				5781B877271E1B46000E4561 /* PodcastFeedController.swift in Sources */,
 				5781B873271E1B46000E4561 /* AppDelegate.swift in Sources */,
 				5781B887271E1B74000E4561 /* Podcast.swift in Sources */,
+				3ED1BCB527C7560F004FD34B /* PodcastDetailView.swift in Sources */,
+				3ED1BCB227C754D5004FD34B /* PodcastDetailViewController.swift in Sources */,
 				5781B889271E1C33000E4561 /* APIClient.swift in Sources */,
 				5781B88B271E1FB8000E4561 /* PodcastCell.swift in Sources */,
 				5781B875271E1B46000E4561 /* SceneDelegate.swift in Sources */,
@@ -163,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5781B878271E1B46000E4561 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5781B879271E1B46000E4561 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5781B87D271E1B48000E4561 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
